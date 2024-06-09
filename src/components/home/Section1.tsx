@@ -50,7 +50,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               <p className="text-base/6 font-semibold">Follow me here</p>
 
               <Row classNames="mt-2 gap-2">
-                {socialLinks.slice(0, 5).map((link, index) => {
+                {socialLinks.slice(0, 4).map((link, index) => {
                   return (
                     <Link
                       key={`social-link-${index}`}

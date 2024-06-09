@@ -1,58 +1,19 @@
 import { ISkillListItem, SkillLevel } from "@/types";
 
+
 const skills: ISkillListItem[] = [
   {
     title: "Programming Languages",
     items: [
       {
-        title: "JavaScript",
+        title: "Python",
         level: SkillLevel.Expert,
-        icon: "/skills/javascript.svg",
+        icon: "/skills/anugya/python.svg",
       },
       {
-        title: "TypeScript",
+        title: "C/C++",
         level: SkillLevel.Intermediate,
-        icon: "/skills/typescript.svg",
-      },
-      {
-        title: "Dart",
-        level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
-      },
-    ],
-  },
-  {
-    title: "Frontend Development",
-    items: [
-      {
-        title: "Next.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/nextjs.svg",
-      },
-      {
-        title: "React.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/react.svg",
-      },
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "HTML",
-        level: SkillLevel.Expert,
-        icon: "/skills/html.svg",
-      },
-      {
-        title: "CSS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/css.svg",
-      },
-      {
-        title: "SASS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
+        icon: "/skills/anugya/cpp.svg",
       },
     ],
   },
@@ -60,39 +21,74 @@ const skills: ISkillListItem[] = [
     title: "Backend Development",
     items: [
       {
-        title: "Node.js",
+        title: "Django",
         level: SkillLevel.Expert,
-        icon: "/skills/nodejs.svg",
+        icon: "/skills/anugya/django.svg",
       },
       {
-        title: "Express",
-        level: SkillLevel.Expert,
-        icon: "/skills/express.svg",
-      },
-      {
-        title: "Nest.js",
-        level: SkillLevel.Begginer,
-        icon: "/skills/nestjs.svg",
+        title: "Flask",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/flask.svg",
       },
     ],
   },
   {
-    title: "Database Management",
+    title: "Frontend Development",
     items: [
       {
-        title: "MongoDB",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/mongodb.svg",
+        title: "HTML",
+        level: SkillLevel.Expert,
+        icon: "/skills/anugya/html-5.svg",
       },
       {
-        title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
+        title: "CSS",
+        level: SkillLevel.Expert,
+        icon: "/skills/anugya/css.svg",
       },
       {
-        title: "MySQL",
-        level: SkillLevel.Begginer,
-        icon: "/skills/mysql.svg",
+        title: "Bootstrap",
+        level: SkillLevel.Expert,
+        icon: "/skills/anugya/bootstrap.svg",
+      },
+    ],
+  },
+  {
+    title: "Data Analysis and Visualization",
+    items: [
+      {
+        title: "Tableau",
+        level: SkillLevel.Expert,
+        icon: "/skills/anugya/tableau.svg",
+      },
+      {
+        title: "Power BI",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/power-bi.svg",
+      },
+      {
+        title: "Knime",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/knine.png",
+      },
+      {
+        title: "Weka",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/weka.jpeg",
+      },
+    ],
+  },
+  {
+    title: "Machine Learning Library",
+    items: [
+      {
+        title: "TensorFlow",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/tensorflow.svg",
+      },
+      {
+        title: "Scikit-Learn",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/scikit-learn.svg",
       },
     ],
   },
@@ -102,48 +98,34 @@ const skills: ISkillListItem[] = [
       {
         title: "Git",
         level: SkillLevel.Expert,
-        icon: "/skills/git.svg",
-      },
-      {
-        title: "GitHub",
-        level: SkillLevel.Expert,
-        icon: "/skills/github.svg",
+        icon: "/skills/anugya/git.svg",
       },
     ],
   },
   {
-    title: "Miscellaneous",
+    title: "Monitoring Tools",
     items: [
-      // {
-      //   title: "WebSockets",
-      //   level: SkillLevel.Intermediate,
-      //   icon: "/images/logical-thinking.png",
-      // },
-      // {
-      //   title: "GetX",
-      //   level: SkillLevel.Expert,
-      //   icon: "/images/logical-thinking.png",
-      // },
       {
-        title: "Redux",
-        level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
+        title: "Grafana",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/grafana.svg",
       },
+      {
+        title: "Prometheus",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/prometheus.svg",
+      },
+    ],
+  },
+  {
+    title: "Cloud Platforms",
+    items: [
       {
         title: "AWS",
         level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
+        icon: "/skills/anugya/prometheus.svg",
       },
-      {
-        title: "Firebase",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
-      },
-      {
-        title: "Ubuntu",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
-      },
+
     ],
   },
   {
@@ -152,17 +134,12 @@ const skills: ISkillListItem[] = [
       {
         title: "Problem Solving",
         level: SkillLevel.Expert,
-        icon: "/images/logical-thinking.png",
-      },
-      {
-        title: "Collaboration",
-        level: SkillLevel.Expert,
-        icon: "/images/collaboration.png",
+        icon: "/skills/anugya/problem-solving.svg",
       },
       {
         title: "Analytical Skills",
         level: SkillLevel.Expert,
-        icon: "/images/analytical-skills.png",
+        icon: "/skills/anugya/analysis.svg",
       },
     ],
   },

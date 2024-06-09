@@ -1,78 +1,57 @@
 import { IProjectItem, ProjectType, RepoType } from "@/types";
 
+
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
+    id: "music-streaming-web-app",
+    title: "Music Streaming Web App",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/skills/flutter.svg",
+      "Developed a Music Streaming Application integrating music genre classification using CNN algorithms, enhancing user experience with personalized playlists.",
+    icon: "/skills/anugya/tensorflow.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://www.nixlab.co.in/projects/com.nixlab.rippl",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
-    sceenshots: ["/screenshots/rippl.png"],
+    githubUrl: "https://github.com/Anugyak/Music-genre-classification-web-application",
+    // url: "https://musicstreaming.com",
+    tags: ["Python", "CNN", "Music Genre Classification"],
+    // screenshots: ["/screenshots/music-streaming-app.png"]
   },
   {
-    id: "e-commerce-app-mern",
-    title: "E-commerce App",
+    id: "ethnic-wear-e-commerce",
+    title: "Ethnic Wear E-commerce Website",
     description:
-      "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
-    icon: "/skills/react.svg",
+      "Crafted an e-commerce platform for ethnic wear using Django, enabling streamlined shopping experiences with secure payment integrations.",
+    icon: "/skills/django.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.cyclic.app",
-    tags: ["React.js", "Redux", "Material UI", "Stripe"],
+    githubUrl: "https://github.com/Anugyak/django-website-project",
+    // url: "https://ethnicwear.com",
+    tags: ["Django", "E-commerce", "Web Development"],
   },
   {
-    id: "video-calling-app-flutter",
-    title: "Video Calling App",
+    id: "email-spam-classification",
+    title: "Email Spam Classification",
     description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
-    icon: "/skills/flutter.svg",
+      "Utilized logistic regression to develop an email classification system, accurately filtering spam and enhancing email security.",
+    icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
-    url: "https://www.nixlab.co.in/projects/livebox-app",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
+    githubUrl: "https://github.com/Anugyak/Breadth-First-Search",
+    tags: ["Python", "Logistic Regression", "Email Security"],
   },
   {
-    id: "social-media-api-nodejs",
-    title: "Social Media API",
+    id: "image-cartoonify",
+    title: "Image Cartoonify",
     description:
-      "An RESTful API developed using Node.js, Express.js and MongoDB to integrate backend and frontend with ease.",
-    icon: "/skills/nestjs.svg",
+      "Created an application that transforms normal images into cartoons using OpenCV and Tkinter, providing users with fun and creative photo editing tools.",
+    icon: "/skills/opencv.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
-  },
-  {
-    id: "grocery-list-maker-app-flutter",
-    title: "Grocery List Maker App",
-    description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB and PDF.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/grocery-list-maker-flutter",
-    url: "https://github.com/nixrajput/grocery-list-maker-flutter/releases/latest",
-    tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
-  },
-  {
-    id: "e-commerce-api-nodejs",
-    title: "E-commerce API",
-    description:
-      "An RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
-    icon: "/skills/nodejs.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
+    githubUrl: "https://github.com/Anugyak/Cartoonify-image",
+    // url: "https://cartoonify.com",
+    tags: ["OpenCV", "Tkinter", "Image Processing"],
   },
 ];
+
 
 export default projects;
 
