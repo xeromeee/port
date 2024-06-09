@@ -20,7 +20,7 @@ const projects: IProjectItem[] = [
     title: "Ethnic Wear E-commerce Website",
     description:
       "Crafted an e-commerce platform for ethnic wear using Django, enabling streamlined shopping experiences with secure payment integrations.",
-    icon: "/skills/django.svg",
+    icon: "/skills/anugya/django.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/Anugyak/django-website-project",
@@ -32,7 +32,7 @@ const projects: IProjectItem[] = [
     title: "Email Spam Classification",
     description:
       "Utilized logistic regression to develop an email classification system, accurately filtering spam and enhancing email security.",
-    icon: "/skills/python.svg",
+    icon: "/skills/anugya/cnn.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/Anugyak/Breadth-First-Search",
@@ -43,7 +43,7 @@ const projects: IProjectItem[] = [
     title: "Image Cartoonify",
     description:
       "Created an application that transforms normal images into cartoons using OpenCV and Tkinter, providing users with fun and creative photo editing tools.",
-    icon: "/skills/opencv.svg",
+    icon: "/skills/anugya/opencv.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/Anugyak/Cartoonify-image",

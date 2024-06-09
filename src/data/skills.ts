@@ -78,7 +78,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Machine Learning Library",
+    title: "Machine Learning Tools",
     items: [
       {
         title: "TensorFlow",
@@ -90,6 +90,17 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/anugya/scikit-learn.svg",
       },
+      {
+        title: "OpenCV",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/opencv.svg",
+      },
+      {
+        title: "CNN",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/anugya/cnn.svg",
+      },
+
     ],
   },
   {
