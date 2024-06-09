@@ -27,20 +27,16 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               <p className="text-base/6 drop_in">Hi 👋 I&apos;m</p>
 
               <p className="text-4xl/normal md:text-5xl/normal font-bold text-[var(--primaryColor)] drop_in">
-                Nikhil Rajput
+                Anugya Khadka
               </p>
 
               <p className="text-sm/6 font-medium text-[var(--textColorLight)] drop_in">
-                Software Enginner & Full Stack Developer
+                Data Science | AI enthusiast
               </p>
 
               <p className="text-base/normal mt-8 drop_in">
                 <Balancer>
-                  Welcome to my portfolio! I am a passionate full-stack
-                  developer with 1+ years of experience. I specialize in
-                  creating user-centric software, proficient in both front-end
-                  and back-end development across various platforms. I integrate
-                  cutting-edge technology seamlessly while prioritizing design.
+                I am a dedicated Python Developer and Data Scientist, passionate about leveraging my technical expertise to contribute to innovative data-driven projects. Armed with a solid foundation in data analytics, backend development, and visual storytelling, I aim to further my skills in machine learning and predictive analytics to drive impactful business solutions. My goal is to integrate advanced data techniques with software development to enhance system efficiencies and decision-making processes in a forward-thinking organization that values continuous learning and technological advancement.
                 </Balancer>
               </p>
 

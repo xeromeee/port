@@ -31,8 +31,8 @@ const HomeSection6 = ({ id }: { id: string }) => {
 
           <p className="text-center mx-auto mt-16 text-2xl/6 font-semibold">
             I&apos;m{" "}
-            <span className="text-[var(--primaryColor)]">available</span> for
-            freelancing.
+            {/* <span className="text-[var(--primaryColor)]">available</span> for
+            freelancing. */}
           </p>
         </Column>
       </ConstraintedBox>

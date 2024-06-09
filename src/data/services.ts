@@ -8,36 +8,36 @@ import { IServiceItem } from "@/types";
 
 const services: IServiceItem[] = [
   {
-    title: "Mobile App Development",
+    title: "Data Analysis and Visualization",
     icon: faMobileButton,
     shortDescription:
-      "I specialize in creating captivating mobile applications that engage your audience.",
+      "Transform complex data into actionable insights with customized analytics and dynamic visualizations.",
     description:
-      "I specialize in creating captivating mobile applications that engage your audience. From concept to deployment, I develop native and cross-platform apps for iOS and Android. With cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that aligns perfectly with your business goals.",
+      " Utilizing powerful tools like Python, Tableau, and Power BI, I provide deep insights through data manipulation, exploratory analysis, and the creation of interactive dashboards that help stakeholders make informed decisions.  ",
   },
   {
-    title: "Web Development",
-    icon: faLaptopCode,
+    title: "Machine Learning",
+    icon: faBrain,
     shortDescription:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence.",
+      " Implement cutting-edge machine learning models to automate processes and enhance decision-making.",
     description:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence. Whether it's a simple informational site or a complex e-commerce platform, I provide tailored web development solutions. Using the latest frameworks and technologies, I create responsive, SEO-friendly websites that offer a seamless browsing experience on all devices.",
+      " I develop and implement machine learning models using TensorFlow and Python, focusing on predictive analytics and automated systems to enhance operational efficiency and business outcomes.",
   },
   {
     title: "Backend Development",
     icon: faServer,
     shortDescription:
-      "I enhance your digital applications with a robust and scalable backend infrastructure.",
+      "Build scalable and efficient backend solutions tailored for seamless functionality and user experience.",
     description:
-      "I enhance your digital applications with a robust and scalable backend infrastructure. With expertise in backend development, I create efficient database structures, develop APIs, and configure servers to ensure optimal performance, security, and scalability. My solutions empower your applications to seamlessly handle high traffic and complex data management.",
+      "Specializing in Python and Django, I design and develop robust backend systems that ensure scalability, maintainability, and high performance to meet the dynamic needs of modern web applications.",
   },
   {
-    title: "Product Strategy",
+    title: "System Monitoring and Optimization",
     icon: faBrain,
     shortDescription:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success.",
+      "Leverage tools like Grafana and Prometheus to monitor and optimize system performance, ensuring reliability and uptime for critical applications.",
     description:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success. My expertise in product ideation and market analysis ensures that your product not only meets user needs but also aligns with your business strategy for long-term growth and full potential of your digital products with effective product strategy.",
+      "Implement advanced monitoring with Grafana and Prometheus to ensure system reliability and performance, optimizing uptime and preventing disruptions.",
   },
 ];
 

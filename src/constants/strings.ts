@@ -4,27 +4,27 @@ class Strings {
   static telegramUsername = "nixrajput";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
-  static githubUsername = "nixrajput";
+  static githubLink = "https://github.com/Anugyak";
+  static githubUsername = "Anugyak";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedInLink = "https://www.linkedin.com/in/anugya-khadka/";
+  static linkedInUsername = "anugya-khadka";
 
   static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/nixrajput";
-  static instagramUsername = "nixrajput";
+  static instagramLink = "https://www.instagram.com/anugyaa99/";
+  static instagramUsername = "anugyaa99";
 
   static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/nixrajput07";
-  static twitterUsername = "nixrajput07";
+  static twitterLink = "https://x.com/Anu_gyaa";
+  static twitterUsername = "Anu_gyaa";
 
   static email = "Email";
-  static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
-  static primaryEmail = "nkr.nikhil.nkr@gmail.com";
+  static primaryEmailLink = "mailto:anugyakhadka234@gmail.com";
+  static primaryEmail = "anugyakhadka234@gmail.com";
 
-  static fullName = "Nikhil Rajput";
-  static shortName = "nixrajput";
+  static fullName = "Anugya Khadka";
+  static shortName = "Anugya";
 }
 
 export default Strings;
