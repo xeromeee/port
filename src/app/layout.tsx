@@ -29,7 +29,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Anugya Khadka",
   description:
-    "Nikhil Rajput is a proficient Full Stack Developer, skilled in seamlessly integrating front-end and back-end technologies while excelling in design.",
+    "Anugya Khadka is a proficient AI|ML enthusiastic with skills to adapt to new technology. Proven traacks records for excellency.",
   robots: {
     index: true,
     follow: true,
